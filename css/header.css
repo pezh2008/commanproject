@@ -1,0 +1,24 @@
+.header {
+  width: 1281px;
+  height: 45px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 0;
+}
+
+.header__logo {
+}
+.header__nav {
+  display: flex;
+}
+.header__list {
+  width: 462px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__phone {
+  display: flex;
+  align-items: center;
+}
