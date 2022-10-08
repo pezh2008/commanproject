@@ -2,5 +2,12 @@
 @import "./vars.css";
 @import "./fonts.css";
 @import "./common.css";
-
-
+@import "./header.css";
+@import "./banner.css";
+@import "./cards.css";
+@import "./feedback.css";
+@import "./stages.css";
+@import "./services.css";
+@import "./questions.css";
+@import "./footer.css";
+@import "./request.css";
