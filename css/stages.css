@@ -1,0 +1,20 @@
+.subtitle {
+  text-align: center;
+  margin: 0 0 3.8rem 0;
+}
+
+.stage__content {
+  grid-template-columns: 1fr 1fr 1fr;
+  display: grid;
+  gap: 1.5rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.stages-info__subtitle {
+  max-width: 400px;
+}
+.line {
+  border-bottom: 2px solid var( --dark-green);
+  width: 78px;
+}
