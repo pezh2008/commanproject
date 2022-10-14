@@ -1,7 +1,6 @@
 .stages__title {
   text-align: center;
   margin: 0 0 3.8rem 0;
- 
 }
 
 .stages__content {
@@ -16,23 +15,21 @@
 .stages__subtitle-line {
   border-bottom: 2px solid var(--dark-green);
   width: 100%;
-
 }
-.stages__image  img {
-width: 100%;
-height: 100%;
+.stages__image img {
+  width: 100%;
+  height: 100%;
 }
 .stages__image {
   margin: 0 0 1rem 0;
-  }
+}
 
 @media (max-width: 1000px) {
   .stages__content {
-    grid-template-columns: 1fr 1fr ;
+    grid-template-columns: 1fr 1fr;
     margin: 0 0 1.5rem 0;
     box-sizing: border-box;
   }
-
 }
 @media (max-width: 880px) {
   .stages__content {
@@ -42,12 +39,19 @@ height: 100%;
   .stages__info {
     margin: 0 0 1rem 0;
   }
-  
 }
+
+@media (max-width: 500px) {
+  .container {
+    max-width: 80rem;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+}
+
 @media (max-width: 420px) {
   .stages__title {
     font-size: 1.8rem;
-    margin: 0 0 2rem 0;
+    margin: 0 0 1rem 0;
   }
-  
 }
