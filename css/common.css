@@ -70,3 +70,9 @@
   line-height: 2.1rem;
   color: var(--black);
 }
+
+.container {
+  max-width: 80rem;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
