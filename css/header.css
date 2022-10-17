@@ -1,4 +1,6 @@
-.header {}
+.header {
+  margin: 0 0 250px 0;
+}
 
 .header__container {
   display: flex;
@@ -30,23 +32,25 @@
 
 .header__phone {
   cursor: pointer;
-  ;
   font-weight: 500;
   font-size: 1.1rem;
   line-height: 1.8rem;
+  color: var(--black);
 }
 
 .header__burger {
   display: none;
 }
 
-@media (max-width: 390px) {
-  .header__container{
+@media (max-width: 600px) {
+  .header__container {
     padding: 20px 20px;
   }
+
   .header__nav {
     display: none;
   }
+
   .header__burger {
     display: block;
   }
